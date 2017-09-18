@@ -18,14 +18,16 @@ namespace lab05_miya
             YummyFlavor.TimesYouSharedIceCream();
             Console.WriteLine("Mochi is NOT for sharing. It's simply too small.");
             YummyFlavor.CoolOffWithIceCream();
+
+
             Console.Read();
         }
 
         public override string CoolOffWithIceCream()
         {
+            string stayCool = "It's hot outside! Grab some ice cream.";
+            return stayCool;
             //throw new NotImplementedException();
-            string KeepCool = "";
-            return KeepCool;
         }
     }
 }

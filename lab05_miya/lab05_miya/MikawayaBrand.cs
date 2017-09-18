@@ -14,8 +14,15 @@ namespace lab05_miya
         public override string CoolOffWithIceCream()
         {
             //throw new NotImplementedException();
-            string KeepCool = "";
-            return KeepCool;
+            string stayCool = "It's hot outside! Grab some ice cream.";
+            return stayCool;
+        }
+
+        public override bool PetsCanHaveSome()
+        {
+            Console.WriteLine();
+            return false;
+            //throw new NotImplementedException();
         }
 
         public virtual void SoldInStores()

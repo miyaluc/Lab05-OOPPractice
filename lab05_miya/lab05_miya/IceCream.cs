@@ -9,10 +9,10 @@ namespace lab05_miya
         //eat it
         //toss it
         //share it
-        public bool PetsCanHaveSome()
-        {
-            return false;
-        }
+        public abstract bool PetsCanHaveSome();
+        //{
+        //    return false;
+        //}
         public void EatTheStuff()
         {
             Console.WriteLine("You just bought the most enticingly arranged ice cream. What are you waiting for? Eat the stuff!");

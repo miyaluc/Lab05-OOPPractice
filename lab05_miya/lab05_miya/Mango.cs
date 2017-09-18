@@ -25,10 +25,5 @@ namespace lab05_miya
             HowManyYouCanEat = NumberEaten;
         }
         //add three override methods
-        public override string CoolOffWithIceCream()
-        {
-            string stayCool = "It's hot outside! Grab some ice cream.";
-            return stayCool;
-        }
     }
 }
