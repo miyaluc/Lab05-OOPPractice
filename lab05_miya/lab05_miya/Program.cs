@@ -19,14 +19,29 @@ namespace lab05_miya
             Console.WriteLine("Mochi is NOT for sharing. It's simply too small.");
             YummyFlavor.CoolOffWithIceCream();
 
+            Mango EatYourHeartOut = new Mango("Nom nom!","My boyfriend is the mochi monster. He'll eat it all before it has a chance to go bad.", 28);
+            Console.WriteLine("Any other mochi fiends out there?");
+            EatYourHeartOut.IsFried();
+            Console.WriteLine("If fried is what you're into, may I strongly suggest tempura fried ice cream? You're welcome.");
 
             Console.Read();
         }
 
         public override string CoolOffWithIceCream()
         {
-            string stayCool = "It's hot outside! Grab some ice cream.";
-            return stayCool;
+            string stayCool = "It's hot outside! Let's grab some ice cream.";
+            string brrr = "It's kinda chilly out. Maybe hot tea is the way to go right now.";
+            Console.WriteLine("What's the temp outside? In Fahrenheit, please.");
+            int temp = Convert.ToInt32(Console.ReadLine());
+
+            if (temp >= 70)
+            {
+                return stayCool;
+            }
+            else
+            {
+                return brrr;
+            }
             //throw new NotImplementedException();
         }
     }

@@ -20,7 +20,7 @@ namespace lab05_miya
 
         public override bool PetsCanHaveSome()
         {
-            Console.WriteLine();
+            Console.WriteLine("Pets should not eat your ice cream. It's for humans.");
             return false;
             //throw new NotImplementedException();
         }
