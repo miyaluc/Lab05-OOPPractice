@@ -4,6 +4,7 @@ using System.Text;
 
 namespace lab05_miya
 {
+    //MikawayaBrand inherits from Mochi class
     class MikawayaBrand : Mochi
     {
         public int NumberOfFlavors
@@ -11,6 +12,7 @@ namespace lab05_miya
             get; set;
         }
 
+        //public so that access is not restricted
         public override string CoolOffWithIceCream()
         {
             //throw new NotImplementedException();
@@ -18,6 +20,7 @@ namespace lab05_miya
             return stayCool;
         }
 
+        //public so that access is not restricted
         public override bool PetsCanHaveSome()
         {
             Console.WriteLine("Pets should not eat your ice cream. It's for humans.");

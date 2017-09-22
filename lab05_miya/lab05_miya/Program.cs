@@ -27,6 +27,7 @@ namespace lab05_miya
             Console.Read();
         }
 
+        //access is not restricted
         public override string CoolOffWithIceCream()
         {
             string stayCool = "It's hot outside! Let's grab some ice cream.";

@@ -4,7 +4,8 @@ using System.Text;
 
 namespace lab05_miya
 {
-    class Mango : MikawayaBrand
+    //abstract because this class is derived - it is a base class
+        class Mango : MikawayaBrand
     {
         public string Portable
         {
@@ -18,6 +19,7 @@ namespace lab05_miya
         {
             get; set;
         }
+        //public so that access is not restricted
         public Mango(string VeryPortable, string FreezeBurned, int NumberEaten)
         {
             Portable = VeryPortable;

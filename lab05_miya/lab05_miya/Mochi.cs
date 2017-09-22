@@ -4,6 +4,7 @@ using System.Text;
 
 namespace lab05_miya
 {
+    //abstract because this class is derived - it is a base class
     abstract class Mochi : IceCream
     {
         public bool IsSweet()
