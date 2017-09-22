@@ -4,16 +4,20 @@ using System.Text;
 
 namespace lab05_miya
 {
+    //abstract because this class is derived - it is a base class
     abstract class Desserts
     {
+        //public so that access is not restricted
         public string NameOfStores
         {
             get; set;
         }
+        //public so that access is not restricted
         public int Budget
         {
             get; set;
         }
+        //public so that access is not restricted
         protected int AddToDesserts()
         {
             int desserts = 0;

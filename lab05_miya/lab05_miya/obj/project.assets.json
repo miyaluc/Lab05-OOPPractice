@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\shami\\source\\repos\\Lab05-OOPPractice\\lab05_miya\\lab05_miya\\lab05_miya.csproj",
+      "projectUniqueName": "C:\\Users\\shami\\Source\\Repos\\Lab05-OOPPractice\\lab05_miya\\lab05_miya\\lab05_miya.csproj",
       "projectName": "lab05_miya",
-      "projectPath": "C:\\Users\\shami\\source\\repos\\Lab05-OOPPractice\\lab05_miya\\lab05_miya\\lab05_miya.csproj",
+      "projectPath": "C:\\Users\\shami\\Source\\Repos\\Lab05-OOPPractice\\lab05_miya\\lab05_miya\\lab05_miya.csproj",
       "packagesPath": "C:\\Users\\shami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shami\\source\\repos\\Lab05-OOPPractice\\lab05_miya\\lab05_miya\\obj\\",
+      "outputPath": "C:\\Users\\shami\\Source\\Repos\\Lab05-OOPPractice\\lab05_miya\\lab05_miya\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
